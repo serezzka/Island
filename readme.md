@@ -31,6 +31,23 @@
 * Программа предполагает, что введенные границы острова соответствуют фактическим, поэтому при некорректном вводе данных результат работы может быть непредсказуемым.
 * Для работы с файлами программа ожидает наличие нужных файлов в указанных директориях.
 
+## Примеры работы:
 
-![alt text](https://github.com/serezzka/Island/blob/main/Images/img1.png)
+### Примеры работы программы при вводе корректных данных через консоль
+![](https://github.com/serezzka/Island/blob/main/Images/img1.png)
+![](https://github.com/serezzka/Island/blob/main/Images/img2.png)
 
+### Пример работы программы при вводе в консоль N вне диапазона
+![](https://github.com/serezzka/Island/blob/main/Images/img3.png)
+
+### Пример работы программы при вводе в консоль некорректной карты острова
+![](https://github.com/serezzka/Island/blob/main/Images/img4.png)
+
+### Пример работы программы при чтении корректных вводных данных из файла 
+![](https://github.com/serezzka/Island/blob/main/Images/img5.png)
+
+### Пример работы программы при чтении из файла N, находящейся вне диапазона
+![](https://github.com/serezzka/Island/blob/main/Images/img6.png)
+
+### Пример работы программы при чтении некорректной карты острова из файла
+![](https://github.com/serezzka/Island/blob/main/Images/img7.png)
