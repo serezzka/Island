@@ -19,7 +19,7 @@ int main() {
 		cin >> choice;
 
 		if (choice == 'F' || choice == 'f') {
-			if (inputFile("../Island_magma/Input_Files/Input.txt"))
+			if (inputFile("../Island/Input_Files/Input.txt"))
 				continue;
 			break;
 		}
@@ -90,12 +90,15 @@ void inputConsole()
 	while (true) {
 		cout << "Введите N(3<=N<=100)\n" << endl;
 		cin >> N;
-		cout << "Введите M(3<=M<=100)\n" << endl;
-		cin >> M;
+		if (cin) {
+			cout << "Введите M(3<=M<=100)\n" << endl;
+			cin >> M;
+		} 
 		if (!isValidInput() || cin.fail())
 		{
 			cin.seekg(0, ios::end);
 			cin.clear();
+			cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 			//system("cls");
 			printf("\033[31mЗначения M или N некорректны! \033[0m\n");
 			continue;
@@ -134,6 +137,7 @@ int inputFile(const string& filename) {
 			cout << "\033[31mЗначения M или N некорректны! \033[0m\n";
 			file.seekg(0, ios::end);
 			file.clear();
+			file.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 			return 1;
 		}
 
