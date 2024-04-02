@@ -132,6 +132,9 @@
   <ItemGroup>
     <ClInclude Include="island.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="Input_Files\Input.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

@@ -19,7 +19,7 @@ int main() {
 		cin >> choice;
 
 		if (choice == 'F' || choice == 'f') {
-			if (inputFile("../Island1/Input_Files/Input.txt"))
+			if (inputFile("Input_Files/Input.txt"))
 				continue;
 			break;
 		}
