@@ -32,5 +32,5 @@
 * Для работы с файлами программа ожидает наличие нужных файлов в указанных директориях.
 
 
-![alt text](Images\img1.png)
+![alt text](https://github.com/serezzka/Island/blob/main/Images/img1.png)
 
