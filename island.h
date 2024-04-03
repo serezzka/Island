@@ -3,6 +3,7 @@
 
 #include <vector>
 
+
 // Символы, используемые для представления элементов острова
 const char water = '.';
 const char land = '#';
@@ -26,6 +27,12 @@ void inputConsole();
 
 // Функция обработки вводных данных из файла
 int inputFile(const std::string& filename);
+
+// Функция проверяющая соответствие результата обработки вводных данных из файлов с ожидаемым результатом
+void listFilesInDirectory(const std::string& directory);
+
+// Функция вывода файлов из каталога
+void runTests();
 
 // Вывод результатов обработки острова
 void output();
